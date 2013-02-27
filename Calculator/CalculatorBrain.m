@@ -122,6 +122,7 @@
 
 + (NSSet *)variableUsedInProgram:(id)program
 {
+    // Mudando o arquivo.
     NSMutableSet * variables;
     NSMutableArray * stack;
     if ([program isKindOfClass:[NSArray class]])
